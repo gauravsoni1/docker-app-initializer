@@ -1,0 +1,18 @@
+{
+  "name": "docker-app-initializer",
+  "version": "1.0.3",
+  "description": "Application to get applications started quickly in a docker container",
+  "main": "initializeApp.js",
+  "scripts": {
+    "start": "node initializeApp.js"
+  },
+  "author": "Gaurav soni",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.1",
+    "yaml": "^1.10.2"
+  },
+  "bin": {
+    "docker-app-initializer": "./initializeApp.js"
+  }
+}
